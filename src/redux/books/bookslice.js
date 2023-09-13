@@ -1,27 +1,27 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, nanoid } from '@reduxjs/toolkit';
 
-const initialState = {
+// STATE
+const initialBooksState = {
   books: [],
-  amount: 0,
-
 };
+
+// CREATE A SLICE USING createSlice
 const bookSlice = createSlice({
-
-  name: 'books',
-  initialState,
-  reducer:
-    {
-      addbook: (state, action) => {
-        state.books.push({ book: 'books1' });
-      },
-
-      removebook: (state, action) => {
-        state.books = state.books.filter('mybook');
-      },
+  name: 'book',
+  initialState: initialBooksState,
+  reducers: {
+    addBook: (state, action) => {
+      const book = {
+        id: nanoid(),
+        text: action.payload,
+      };
+      state.books.push(book);
     },
+    removeBook: (state, action) => {
+      state.books.filter((book) => book.id !== action.payload);
+    },
+  },
 });
-console.log(bookSlice);
 
-export const { addbook, removebook } = bookSlice.actions;
-
+export const { addBook, removeBook } = bookSlice.actions;
 export default bookSlice.reducer;
