@@ -1,6 +1,5 @@
-# Bookstore:
+# Bookstore:React & Redux app to API
 <a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -8,8 +7,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-    - [Live Demo](#live-demo)
+    - [Key Features](#key-features)  
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -26,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Bookstore <a name="about-project"></a>
+# 📖 Bookstore React & Redux app to API <a name="about-project"></a>
 
-**Bookstore: add reducers and actions** is developed project done to add reducers and actions
+**Bookstore: add reducers and actions/React & Redux app to API** is developed project done to add reducers and actions
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,19 +34,18 @@
 
 <details>
   adding Bookstore: add reducers and actions
+  connect React & Redux app to API
   </details>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-features
-- [Live Demo link](https://github.com/samuelkinyanjui/bookstore_add_reducers)
+
 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
--adding actions and reducers
+-Connect React & Redux app to API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +98,7 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 👤 **Samuel kinyanjui**
 
-- GitHub: [@githubhandle](https://github.com/samuelkinyanjui/Capstone-Project_sam)
+- GitHub: [@githubhandle](https://github.com/samuelkinyanjui)
 
 
 
@@ -111,7 +108,7 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- More react redux tasks
+- More on API and Rudex
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
