@@ -19,7 +19,7 @@ input {
   background-color: #fff;
   border: 1px solid #ececec;
   border-radius: 4px;
-  height: 2.813rem;
+  height: 2.2rem;
   margin: 0 1%;
 }
 
@@ -42,10 +42,11 @@ form button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .add-title {
-  width: 45rem;
+  width: 20rem;
   padding-left: 1%;
 }
 
@@ -59,3 +60,4 @@ form button {
   justify-content: space-between;
   align-items: center;
 }
+

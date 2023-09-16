@@ -52,7 +52,7 @@ const AddBook = () => {
             onChange={changeAuthor}
           />
         </div>
-        <AddBookButton type="submit">
+        <AddBookButton type="submit" className="buttonaddbook">
           ADD BOOK
         </AddBookButton>
       </div>
