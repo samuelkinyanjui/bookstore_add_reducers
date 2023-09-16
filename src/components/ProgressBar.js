@@ -1,4 +1,3 @@
-
 import '../styles/ProgressBar.css';
 
 const ProgressBar = () => {
@@ -6,9 +5,7 @@ const ProgressBar = () => {
   return (
     <div className="progress-container">
       <div className="circular-progress-container">
-        <div className="circular-progress">
-        
-        </div>
+        <div className="circular-progress" />
       </div>
       <div className="progress-stat">
         <p className="percent-complete">{`${value * 100}%`}</p>
