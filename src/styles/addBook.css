@@ -42,7 +42,6 @@ form button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .add-title {
@@ -60,4 +59,3 @@ form button {
   justify-content: space-between;
   align-items: center;
 }
-
